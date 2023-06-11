@@ -1,0 +1,67 @@
+.page{
+    width: 100%;
+    height: 90%;
+    position: absolute;   
+    margin-top: 4%;
+}
+
+.top-tags{
+    bottom: auto;
+    top: 35px;
+}
+
+.yellow{
+    color: #d3cd0b;
+}
+
+.darkye{
+    color: #b6b115;
+}
+
+.darkbl{
+    color: #1086fc;
+}
+
+.lightbl{
+    color: #00c3ff;
+}
+
+.purp{
+    color: #b509be;
+}
+
+.white{
+    color: #25251b;
+}
+
+.green{
+    color: #7ccd20;
+}
+
+.tags{
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    font-size: 18px;
+    font-family: 'Courier';
+}
+
+.bottom-tag-html{
+    margin-left: -20px;
+}
+
+.contrainer{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
